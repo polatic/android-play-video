@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="video_path">storage/emulated/0/DCIM/Camera/Polatic.mp4</string>
+    <string name="video_path">storage/emulated/0/DCIM/Camera/polatic.mp4</string>
     <string name="video_url">YOksl8CVZco</string>
 
 </resources>

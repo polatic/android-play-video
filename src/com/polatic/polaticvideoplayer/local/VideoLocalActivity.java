@@ -20,6 +20,7 @@ import com.polatic.polaticvideoplayer.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Toast;
 
 import io.vov.vitamio.LibsChecker;
@@ -33,7 +34,7 @@ public class VideoLocalActivity extends Activity {
 	 * TODO: Set the path variable to a streaming video URL or a local media
 	 * file path.
 	 */
-	private String path = getString(R.string.video_path);
+	private String path;
 	private VideoView mVideoView;
 
 	@Override
@@ -43,7 +44,8 @@ public class VideoLocalActivity extends Activity {
 			return;
 		setContentView(R.layout.videoview);
 		mVideoView = (VideoView) findViewById(R.id.surface_view);
-
+		path = getString(R.string.video_path);
+		Log.d("path", path);
 		if (path == "") {
 			// Tell the user to provide a media file URL/path.
 			Toast.makeText(

@@ -35,9 +35,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.polatic.polaticvideoplayer.streaming.StreamViewActivity" >
+        <activity
+            android:name="com.polatic.polaticvideoplayer.streaming.StreamViewActivity"
+            android:label="@string/polatic_video_player" >
         </activity>
-        <activity android:name="com.polatic.polaticvideoplayer.local.VideoLocalActivity" >
+        <activity
+            android:name="com.polatic.polaticvideoplayer.local.VideoLocalActivity"
+            android:label="@string/polatic_video_player" >
         </activity>
         <activity
             android:name="io.vov.vitamio.activity.InitActivity"
