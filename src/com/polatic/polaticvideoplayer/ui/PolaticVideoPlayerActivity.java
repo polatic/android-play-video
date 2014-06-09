@@ -1,7 +1,7 @@
 package com.polatic.polaticvideoplayer.ui;
 
 import com.polatic.polaticvideoplayer.R;
-import com.polatic.polaticvideoplayer.local.VideoLocalActivity;
+import com.polatic.polaticvideoplayer.local.LocalActivity;
 import com.polatic.polaticvideoplayer.streaming.StreamViewActivity;
 
 import android.app.Activity;
@@ -37,7 +37,7 @@ public class PolaticVideoPlayerActivity extends Activity implements OnClickListe
 	public void onClick(View v) {
 		switch (v.getId()) {
 		case R.id.btnLocal:
-			startActivity(new Intent(this, VideoLocalActivity.class));
+			startActivity(new Intent(this, LocalActivity.class));
 			break;
 		case R.id.btnStream :
 			startActivity(new Intent(this, StreamViewActivity.class));

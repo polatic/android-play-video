@@ -40,7 +40,7 @@
             android:label="@string/polatic_video_player" >
         </activity>
         <activity
-            android:name="com.polatic.polaticvideoplayer.local.VideoLocalActivity"
+            android:name="com.polatic.polaticvideoplayer.local.LocalActivity"
             android:label="@string/polatic_video_player" >
         </activity>
         <activity
